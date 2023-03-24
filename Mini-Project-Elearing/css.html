@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+     <!-- bootstrap java -->
+     <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"
+     ></script>
+    <title>css</title>
+</head>
+<body class="css-body" >
+    <div class="h-container">
+        <i class="fa-sharp fa-3x fa-solid fa-rectangle-list" 
+        class="navbar-toggler bg-light"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+        id="list-icon">
+        </i>
+        <script src="https://kit.fontawesome.com/6f736b4fbb.js" crossorigin="anonymous"></script>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" style="color: white;" href="#CSS-Syntax">CSS Syntax</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#EMBED-CS-INTO-HTML">EMBED CS INTO HTML</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#CSS-Selector">CSS Selectors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#CSS-Colors">CSS Colors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#CSS-Margin">CSS-Margin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#CSS-Padding">CSS Padding</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#CSS-Box-Model">CSS-Box-Model</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#CSS-Fonts">CSS-Fonts</a>
+          </li>
+          </ul>
+      </div>
+      <div class="html-intro" >
+      <button class="button-1" role="button">CSS</button> <br>
+      <p class="paragraph"> <br> 🟡Introduction 🤗:
+        <br><br>
+        CSS is acronym of Cascading Style Sheets. It helps to define the presentation of HTML elements as a separate file known as CSS file having .css extension. <br>
+        CSS helps to change formatting of any HTML element by just making changes at one place. All changes made would be reflected automatically to all of the web pages of the website in which that element appeared. <br> <br>
+        🟡 CSS Rules :- <br> <br>
+        CSS Rules are the styles that we have to create in order to create style sheets. These rules define appearance of associated HTML element. The general form of CSS syntax is as follows: <br>
+        <br><br>
+        ⭐Example 🤗: <br> <br>
+        Selector {property: value;} <br>
+        P { color : red;} <br> 
+        h1 (color : green; font-style : italic ) <br>
+        body { color : cyan; font-family : Arial; font- style : 16pt} <br>
+        </p> <br>
+        <p>
+        <embed class="embed-css-para" src="https://www.youtube.com/embed/41Hi_DCgFaI" >
+        </p> 
+        <br><br>
+        <p class="paragraph">
+        🟡 Key Points 🤩:- <br> <br>
+
+        Selector is HTML element to which CSS rule is applied. <br>
+        Property specifies the attribute that you want to change corresponding to the selector. <br>
+        Property can take specified value. <br>
+        Property and Value are separated by a colon (:). <br>
+        Each declaration is separated by semi colon (;). <br>
+    </p> <br> <br>
+    <div class="html-attributes" id="CSS-Syntax">
+      <button class="button-1" role="button-2" style="left: 30%;" >CSS Syntax</button>
+      <p> <br>
+          🟡 A CSS rule consists of a selector and a declaration block.
+          <br> <br> 
+          </p>
+          <img class="CSS-Syntax" src="images\Screenshot 2023-03-18 233434.png" style="width: 70%;
+          height: 20%; margin-left: 15%; " > <br> <br>
+ 
+         <p> The selector points to the HTML element you want to style. <br> <br>
+
+        The declaration block contains one or more declarations separated by semicolons. <br> <br>
+
+        Each declaration includes a CSS property name and a value, separated by a colon. <br> <br>
+
+        Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces. <br> <br>
+
+       ⭐Example 😯: <br>
+      In this example all < p> elements will be center-aligned, with a red text color: <br>
+      </p>
+      <p>
+      <img src="images\Screenshot 2023-03-18 234602.png" style="width: 80%;
+      height: 40%; margin-left: 15%;"> <br> <br>
+  </p> <br>
+  </div>
+    <div class="html-attributes" id="EMBED-CS-INTO-HTML">
+        <button class="button-1" role="button-2" style="left: 30%;" >EMBED CSS INTO HTML</button>
+        <p> <br> 
+            🟡 Embedding CSS into HTML :- <br>
+            Following are the four methods to add CSS to HTML documents. <br> <br>
+            
+            1) Inline Style Sheets ⭐ <br> <br>
+            
+            2) Embedded Style Sheets ⭐<br> <br>
+            
+            3) External Style Sheets ⭐<br> <br>
+            
+            4) Imported Style Sheets ⭐<br> <br>
+    </p>
+    </div>
+    <div class="html-attributes" id="CSS-Selector">
+      <button class="button-1" role="button-2" style="left: 30%;" >CSS Selector</button>
+      <p> <br> 
+          🟡A CSS selector selects the HTML element(s) you want to style.🤨 <br>
+          </p> 
+          <p> ⭐Example 🤗:</p> 
+          <br>
+          <p>
+          <img src="images\Screenshot 2023-03-19 000327.png"  style="width: 100%;
+         height: 100%; margin-left: 5%;"> 
+         </p> <br> 
+          <p> 
+         <embed class="embed-css-sel" src="https://www.youtube.com/embed/oPPym7UaSIo" > 
+
+  </p>
+  </div>
+  <div class="html-attributes" id="CSS-Colors">
+    <button class="button-1" role="button-2" style="left: 30%;" >CSS Colors</button>
+    <p> <br> 
+        🟡In CSS, a color can be specified by using a predefined color name:😯 <br>
+        </p> <p>⭐Example 🤗:</p> <br>
+        <p>
+           
+        <img src="images\Screenshot 2023-03-23 173937.png"  style="width: 100%;
+       height: 100%; margin-left: 2%;"> 
+       </p> <br> 
+       <p>
+       🟡 CSS Background Color <br>
+       You can set the background color for HTML elements: <br>
+       </p> <br>
+       <p>
+       <img src="images\Screenshot 2023-03-23 174510.png"  style="width: 100%;
+       height: 100%; margin-left: 2%;"> </p> <br>
+       <p>
+        <br>
+       <embed class="embed-css-sel" src="https://www.youtube.com/embed/EEw5OJCsiDs" >
+      </p> 
+
+</p>
+</div>
+<div class="html-attributes" id="CSS-Margin">
+  <button class="button-1" role="button-2" style="left: 30%;" >CSS Margin</button>
+  <p> <br> 
+      🟡The CSS margin  properties are used to create space around elements, outside of any defined borders. <br>
+
+      With CSS, you have full control over the margins. <br>
+      There are properties for setting the margin for each side of an element (top, right, bottom, and left). <br> <br>
+      ⭐CSS has properties for specifying the margin for each side of an element: <br>  <br>
+      🟡 margin-top <br>
+      🟡 margin-right <br>
+      🟡 margin-bottom <br>
+      🟡 margin-left <br> <br>
+       
+      🟡 All the margin properties can have the following values: <br> <br>
+
+      1) auto - the browser calculates the margin <br>
+      2) length - specifies a margin in px, pt, cm, etc. <br>
+      3) % - specifies a margin in % of the width of the containing element <br>
+      4) inherit - specifies that the margin should be inherited from the parent element <br>
+      </p> <p>⭐Example 🤗:</p> <br><p>  
+      <img src="images\Screenshot 2023-03-23 182255.png"  style="width: 100%;
+     height: 100%; margin-left: 5%;"> 
+     </p> <br> 
+      <p> 
+     <embed class="embed-css-sel" src="https://www.youtube.com/embed/gmFyPlF9Cko" > 
+
+</p>
+</div>
+<div class="html-attributes" id="CSS-Padding">
+  <button class="button-1" role="button-2" style="left: 30%;" >CSS Padding</button>
+  <p> <br> 
+      🟡The CSS padding properties are used to generate space around an element's content, inside of any defined borders. <br> <br>
+      With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left). <br>
+      <br>
+      
+
+      ⭐CSS has properties for specifying the padding for each side of an element: <br>
+      🟡 padding-top <br>
+      🟡 padding-right <br>
+      🟡 padding-bottom <br>
+      🟡 padding-left <br> <br>
+       
+      🟡All the padding properties can have the following values: <br> <br>
+
+      1) auto - the browser calculates the margin <br>
+      2) length - specifies a margin in px, pt, cm, etc. <br>
+      3) % - specifies a margin in % of the width of the containing element <br>
+      </p> <p> ⭐Example 🤗:</p> <br><p>  
+      <img src="images\Screenshot 2023-03-23 183519.png"  style="width: 100%;
+     height: 100%; margin-left: 5%;"> 
+     </p> <br> 
+      <p> 
+     <embed class="embed-css-sel" src="https://www.youtube.com/embed/AuWBj_p9omo" > 
+
+</p>
+</div>
+<div class="html-attributes" id="CSS-Box-Model">
+  <button class="button-1" role="button-2" style="left: 30%;" >CSS Box Model</button>
+  <p> <br> 
+      🟡In CSS, the term "box model" is used when talking about design and layout. <br>
+      The CSS box model is essentially a box that wraps around every HTML element. <br>
+       It consists of: margins, borders, padding, and the actual content. <br> <br>
+       
+       ⭐ Explanation of the different parts: <br> <br>
+       🟡Content - The content of the box, where text and images appear <br>
+       🟡Padding - Clears an area around the content. The padding is transparent <br>
+       🟡Border - A border that goes around the padding and content <br>
+       🟡Margin - Clears an area outside the border. The margin is transparent <br> <br>
+       ⭐The box model allows us to add a border around elements, and to define space between elements. <br>
+      
+      <br>
+      
+
+            
+       </p> <p>⭐Example 🤗:</p> <br> <p>  <br>
+      <img src="images\Screenshot 2023-03-23 184630.png"  style="width: 100%;
+     height: 100%; margin-left: 5%;"> 
+     </p> <br> 
+      <p> 
+     <embed class="embed-css-sel" src="https://www.youtube.com/embed/5koxb4JaDqc" > 
+
+</p>
+</div>
+<div class="html-attributes" id="CSS-Fonts">
+  <button class="button-1" role="button-2" style="left: 30%;" >CSS Fonts</button>
+  <p> <br> 
+      🟡Font Selection is Important <br> <br>
+      Choosing the right font has a huge impact on how the readers experience a website. <br> <br>
+
+      The right font can create a strong identity for your brand. <br> <br>
+
+      Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font. <br> <br>
+       
+       ⭐ Generic Font Families : <br> <br>
+       🟡 Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance. <br>
+       🟡Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look. <br>
+       🟡Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. <br>
+       🟡Cursive fonts imitate human handwriting. <br>
+       🟡Fantasy fonts are decorative/playful fonts. <br>      
+      <br>
+        
+       </p> <p>⭐Example 🤗:</p> <br><p> 
+      <img src="images\Screenshot 2023-03-23 185542.png"  style="width: 100%;
+     height: 100%; margin-left: 5%;"> 
+     </p> <br> 
+      <p> 
+     <embed class="embed-css-sel" src="https://www.youtube.com/embed/5Gz7j4gDrXM" > 
+
+</p>
+</div>
+
+
+
+
+  
+
+
+</body>
+</html>
